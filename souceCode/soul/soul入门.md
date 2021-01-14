@@ -230,15 +230,6 @@ soul :
 2021-01-14 23:08:29.910  INFO 26617 --- [           main] o.d.s.w.configuration.SoulConfiguration  : load plugin:[response] [org.dromara.soul.plugin.alibaba.dubbo.response.DubboResponsePlugin]
 ```
 
-### 监控地址
-
-通过下面日志可知
-
-```
-2021-01-14 23:20:50.629  INFO 26708 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2021-01-14 23:20:51.699  INFO 26708 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 9195
-```
-
 ### 目前不懂的地方
 
 配置文件中	
