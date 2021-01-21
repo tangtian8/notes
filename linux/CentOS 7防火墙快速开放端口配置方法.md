@@ -18,7 +18,7 @@ firewall-cmd --reload
 ```
 firewall-cmd --list-port
 ```
-
+firewall-cmd --state
 命令含义
 ```
 --zone #作用域
