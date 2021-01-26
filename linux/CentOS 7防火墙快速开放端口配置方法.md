@@ -3,7 +3,7 @@ CentOS升级到7之后，发现无法使用iptables控制Linuxs的端口，baidu
 
 开启端口
 ```
-firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --zone=public --add-port=8848/tcp --permanent
 ```
 查询端口号80 是否开启
 ```
